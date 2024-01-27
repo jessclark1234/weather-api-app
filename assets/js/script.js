@@ -12,7 +12,7 @@ function getWeatherApi() {
             console.log(data)
             for (var i = 0; i < data.list.length; i=i+8)  {
                 var day = data.list[i]
-                // document.getElementById('day' + (i/8+1)).textContent = list[0].dt_txt
+                document.getElementById('weatherIcon' + (i/8+1)).src = "https://openweathermap.org/img/wn/"+day.weather[0].icon+"@2x.png"
                 document.getElementById('temp' + (i/8+1)).textContent = 'Temperature: ' + day.main.temp + '*F'
                 document.getElementById('wind' + (i/8+1)).textContent = 'Wind Speed: ' + day.wind.speed + 'mph'
                 document.getElementById('humidity' + (i/8+1)).textContent = 'Humidity: ' +day.main.humidity + '%'
@@ -26,4 +26,4 @@ function getWeatherApi() {
     getWeatherApi();
    })
 
-
+// src = "https://openweathermap.org/img/wn/"day.weather[0].icon"@2x.png" day.weather[0].icon
