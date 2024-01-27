@@ -26,4 +26,4 @@ function getWeatherApi() {
     getWeatherApi();
    })
 
-// src = "https://openweathermap.org/img/wn/"day.weather[0].icon"@2x.png" day.weather[0].icon
+
