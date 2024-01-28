@@ -1,14 +1,16 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
 }
 
 header {
-    background-color: #004d00;
     height: 150px;
     text-align: center;
-    color: #f9f2ec;
     font-size: 50px;
+    background-color: #e0ac7f
 }
+
+h3
 
 body {
     background-color: #f9f2ec;
@@ -24,34 +26,52 @@ nav {
 
 p {
     font-weight: bold;
+    color: #ffffff;
 }
 
 footer {
-    background-color: #004d00;
+    background-color: #e0ac7f
 }
 
 .card {
     border: 1px solid black;
-    background-color: #f9f2ec;
     display: inline-block;
     padding: 12px;
     margin: 12px;
-    width: 260px;
-    height: 260px;
-    line-height: 80px;
-}
-
-.currentDay {
-    background-color: #004d00;
-    color: #f9f2ec;
     width: 300px;
-    height: 280px;
+    height: 400px;
+    line-height: 80px;
+    background-color: #e0ac7f;
+   
 }
 
-.searchBar{
-    background-color: #f9f2ec;
+#currentDay {
+    width: 1200px;
+    height: 400px;
+    margin-left: 400px;
 }
+
+#searchBar{
+    background-color: #f9f2ec;
+    width: 300px;
+    height: 40px;
+    outline-color: #e0ac7f;
+}
+
+#searchBar:focus{
+    outline-color: #ffffff;
+}
+
 .weatherBar{
     display: block;
 
+}
+
+.button{
+    background-color: #e0ac7f;
+    display: block;
+    width: 200px;
+    font-size: 20px;
+    margin: 20px 10px;
+    height: 30px;
 }

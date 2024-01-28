@@ -21,9 +21,9 @@ function getWeatherApi() {
                 localStorage.setItem('weatherIcon', 'temp', 'wind', 'humidity')
             }
         });
-    function getAustinWeather() {
-        var cityId = 4671654
-        var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=' + cityId + '&units=imperial&appid=' + weatherApiKey
+    // function getAustinWeather() {
+    //     var cityId = 4671654
+    //     var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=' + cityId + '&units=imperial&appid=' + weatherApiKey
 
         // fetch(requestUrl)
         // .then(function (response) {
@@ -40,7 +40,7 @@ function getWeatherApi() {
         //         localStorage.setItem('weatherIcon', 'temp', 'wind', 'humidity')
         //     }
         // });
-    };
+    // };
 };
 
 
