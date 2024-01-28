@@ -12,7 +12,7 @@
 </head>
 <body>
     <header id="weatherBar">
-        <h1>Your Weather Panel</h1>
+        <h1 id="title">Your Weather Panel</h1>
     </header>
     <main>
         <section id="search">
@@ -21,43 +21,48 @@
             <button class="button" id="searchBtn">Search</button>
         </section>
         <nav>
-            <button class="button">San Francisco</button>
-            <button class="button">Los Angeles</button>
-            <button class="button">Las Vegas</button>
-            <button class="button">Austin</button>
-            <button class="button">Orlando</button>
-            <button class="button">New York City</button>
-            <button class="button">Philadelphia</button>
+            <button class="button" id="sf">San Francisco</button>
+            <button class="button" id="la">Los Angeles</button>
+            <button class="button" id="lv">Las Vegas</button>
+            <button class="button" id="austin">Austin</button>
+            <button class="button" id="orlando">Orlando</button>
+            <button class="button" id="nyc">New York City</button>
+            <button class="button" id="philly">Philadelphia</button>
         </nav>
         <section class="card" id="currentDay">
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind Speed:</p>
-            <p id="humidity">Humidity:</p>
+            <img id="weatherIcon1">
+            <p id="weatherDescription"></p>
+            <p id="temp1"></p>
+            <p id="wind1"></p>
+            <p id="humidity1"></p>
         </section>
         <section class="card" id="dayOne">
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind Speed:</p>
-            <p id="humidity">Humidity:</p>
+            <img id="weatherIcon2">
+            <p id="weatherDescription"></p>
+            <p id="temp2"></p>
+            <p id="wind2"></p>
+            <p id="humidity2"></p>
         </section>
         <section class="card" id="dayTwo">
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind Speed:</p>
-            <p id="humidity">Humidity:</p>
+            <img id="weatherIcon3">
+            <p id="weatherDescription"></p>
+            <p id="temp3"></p>
+            <p id="wind3"></p>
+            <p id="humidity3"></p>
         </section>
         <section class="card" id="dayThree">
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind Speed:</p>
-            <p id="humidity">Humidity:</p>
+            <img id="weatherIcon4">
+            <p id="weatherDescription"></p>
+            <p id="temp4"></p>
+            <p id="wind4"></p>
+            <p id="humidity4"></p>
         </section>
         <section class="card" id="dayFour">
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind Speed:</p>
-            <p id="humidity">Humidity:</p>
-        </section>
-        <section class="card" id="dayFive">
-            <p id="temp">Temperature:</p>
-            <p id="wind">Wind Speed:</p>
-            <p id="humidity">Humidity:</p>
+            <img id="weatherIcon5">
+            <p id="weatherDescription"></p>
+            <p id="temp5"></p>
+            <p id="wind5"></p>
+            <p id="humidity5"></p>
         </section>
     </main>
     <footer>
