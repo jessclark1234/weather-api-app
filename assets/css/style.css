@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: #004d00;
+    background-color: #3d42cd;
     height: 150px;
     text-align: center;
     color: #f9f2ec;
@@ -27,7 +27,7 @@ p {
 }
 
 footer {
-    background-color: #004d00;
+    background-color: #3d42cd;
 }
 
 .card {
@@ -42,7 +42,7 @@ footer {
 }
 
 .currentDay {
-    background-color: #004d00;
+    background-color: #6c70e1;
     color: #f9f2ec;
     width: 300px;
     height: 280px;
