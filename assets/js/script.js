@@ -14,6 +14,7 @@ function getWeatherApi() {
             for (var i = 0; i < data.list.length; i = i + 8) {
                 var day = data.list[i]
                 document.getElementById('weatherIcon' + (i / 8 + 1)).src = "https://openweathermap.org/img/wn/" + day.weather[0].icon + "@2x.png"
+                // document.getElementById('date' + (i / 8 + 1)).textContent = list[0].dt_txt
                 document.getElementById('weatherDescription' + (i / 8 + 1)).textContent = day.weather[0].description
                 document.getElementById('temp' + (i / 8 + 1)).textContent = 'Temperature: ' + day.main.temp + '°F'
                 document.getElementById('wind' + (i / 8 + 1)).textContent = 'Wind Speed: ' + day.wind.speed + 'mph'
@@ -21,9 +22,9 @@ function getWeatherApi() {
                 localStorage.setItem('weatherIcon', 'temp', 'wind', 'humidity')
             }
         });
-    function getAustinWeather() {
-        var cityId = 4671654
-        var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=' + cityId + '&units=imperial&appid=' + weatherApiKey
+    // function getAustinWeather() {
+    //     var cityId = 4671654
+    //     var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=' + cityId + '&units=imperial&appid=' + weatherApiKey
 
         // fetch(requestUrl)
         // .then(function (response) {
@@ -40,7 +41,7 @@ function getWeatherApi() {
         //         localStorage.setItem('weatherIcon', 'temp', 'wind', 'humidity')
         //     }
         // });
-    };
+    // };
 };
 
 

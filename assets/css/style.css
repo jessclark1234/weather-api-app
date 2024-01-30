@@ -6,7 +6,6 @@ header {
     background-color: #3d42cd;
     height: 90px;
     text-align: center;
-    color: #f9f2ec;
     font-size: 50px;
 }
 
@@ -22,6 +21,11 @@ p {
     font-weight: bold;
 }
 
+.row{
+    background-color: #3d42cd;
+    color: #ffffff;
+}
+
 .container{
     width: 1500px;
     height: 600px;
@@ -32,6 +36,8 @@ p {
     border: 1px solid #3d42cd;
     background-color: #ffffff;
     display: inline-block;
+    padding: 12px;
+    margin: 12px;
     width: 300px;
     height: 550px;
     line-height: 100px;
@@ -43,12 +49,15 @@ p {
     height: 500px;
     line-height: 90px;
     margin-left: 150px;
+
 }
 
 #currentDay {
-    background-color: #6c70e1;
-    color: #ffffff; 
+    width: 1500px;
+    height: 300px;
+    margin-left: 400px;
 }
+
 
 #searchContainer{
     display: inline-block;
