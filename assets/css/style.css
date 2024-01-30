@@ -30,6 +30,8 @@ p {
     width: 1500px;
     height: 600px;
     margin-left: 130px;
+    /* position: absolute; */
+    top: 40px;
 }
 
 .card {
