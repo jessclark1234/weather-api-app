@@ -29,6 +29,7 @@ p {
 .container{
     width: 1500px;
     height: 600px;
+    margin-left: 130px;
 }
 
 .card {
@@ -38,10 +39,17 @@ p {
     padding: 12px;
     margin: 12px;
     width: 300px;
-    height: 400px;
-    line-height: 80px;
-    background-color: #ffffff;
-   
+    height: 550px;
+    line-height: 100px;
+    margin: 20px;
+}
+
+.row{
+    width: 1700px;
+    height: 500px;
+    line-height: 90px;
+    margin-left: 150px;
+
 }
 
 #currentDay {
@@ -50,11 +58,23 @@ p {
     margin-left: 400px;
 }
 
+
+#searchContainer{
+    display: inline-block;
+    height: 60px;
+    width: 900px;
+}
+
 #searchBar{
     background-color: #ffffff;
-    height: 60px;
-    width: 200px;
-    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+#searchBtn{
+    height: 40px;
+    width: 100px;
+    margin: 2px;
 }
 
 #weatherIcon{
@@ -62,10 +82,8 @@ p {
 }
 
 .button{
-    background-color: #3d42cd;
     display: block;
-    width: 200px;
-    font-size: 20px;
-    margin: 20px 10px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
+    margin: 20px 0px;
 }
