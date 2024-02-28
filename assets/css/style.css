@@ -21,17 +21,26 @@ p {
     font-weight: bold;
 }
 
-.row{
-    background-color: #3d42cd;
-    color: #ffffff;
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstContainer{
+    width: 10%;
+}
+
+.secondContainer{
+    margin-top: 20px;
+    width: 90%;
 }
 
 .container{
     width: 1500px;
     height: 600px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     /* position: absolute; */
-    top: 40px;
+    /* top: 40px; */
 }
 
 .card {
@@ -39,7 +48,6 @@ p {
     background-color: #ffffff;
     display: inline-block;
     padding: 12px;
-    margin: 12px;
     width: 300px;
     height: 550px;
     line-height: 100px;
@@ -49,15 +57,17 @@ p {
 .row{
     width: 1700px;
     height: 500px;
-    line-height: 90px;
-    margin-left: 150px;
+    line-height: 45px;
+    margin-left: 20px;
+    background-color: #3d42cd;
+    color: #ffffff;
 
 }
 
 #currentDay {
     width: 1500px;
     height: 300px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
 }
 
 
