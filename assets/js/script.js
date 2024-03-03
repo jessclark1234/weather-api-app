@@ -49,6 +49,6 @@ document.getElementById("searchBtn").addEventListener('click', function () {
     getWeatherApi();
 });
 
-document.getElementById("austin").addEventListener('click', function () {
-    getAustinWeather();
-});
+// document.getElementById("austin").addEventListener('click', function () {
+//     getAustinWeather();
+// });
