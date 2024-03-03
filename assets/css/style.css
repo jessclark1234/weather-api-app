@@ -1,5 +1,7 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* display: flex; */
 }
 
 header {
@@ -13,9 +15,7 @@ body {
     background-color: #ffffff;
 }
 
-section {
-    font-size: 26px;
-}
+
 
 p {
     font-weight: bold;
